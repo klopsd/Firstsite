@@ -1,0 +1,110 @@
+<!DOCTYPE html>
+<html>
+<head>
+<h1>O Site de teste do Eric, INACABADO, (ainda falta aprender CSS e javascript!) </h1>
+<!--note que este site está em desenvolvimento, e não tem um propósito-->
+<title>Site do Eric</title>
+<a href="#footer">Ir Para Baixo</a>
+</head>
+
+<h2>objetivos</h2>
+<ol>
+<li>adicionar uma imagem</li>
+<li>adicionar um link</li>
+<li>adicionar um botão</li>
+</ol>
+
+<h3 style="color: green;">à medida que eu vou aprendendo coisas, eu vou adicionando a este site.</h3>
+
+
+
+
+
+
+<input type="text" placeholder="Escreva algo">
+<button type="submit">Eu Sou Um Botão</button>
+
+</body>
+
+<img src="https://pt.petitchef.com/imgupl/recipe/pao-de-forma-caseiro-e-bem-facil--lg-455898p708561.jpg" alt="pao de forma.">
+
+
+<div>
+<a href="https://www.youtube.com/watch?v=VyTBYfoipBA&list=PLkqueRho_pPhyBhduYpFJKcwjjz8AJuL3&index=9&t=0s">musica top</a>
+
+
+<!--não sei nada-->
+
+
+<a href="https://www.youtube.com/watch?v=NNiTxUEnmKI">música topzera</a>
+</div>
+<form action="https://formulario112233.netlify.app" netlify>
+
+<p>qual é melhor?</p>
+
+<label for="Pão-de-forma">
+<input id="Pão-de-forma" type="radio" name="melhor-pão" checked>Pão-De-Forma<br>
+</label>
+
+<label for="Pão-Francês">
+<input id="Pão-Francês" type="radio" name="melhor-pão">Pão-Francês<br>
+</label>
+
+
+<label for="pão-de-leite">
+<input id="pão-de-leite" type="radio" name="melhor-pão">Pão-De-Leite<br>
+</label>
+
+
+<p>Quais linguagens de programação você Gosta dentre estas?:</p> <br>
+
+<label for="java">
+<input id="java" type="checkbox" name="linguas" value="java" checked>Java<br>
+</label>
+
+<label for="javascript">
+<input id="javascript" type="checkbox" name="linguas" value="javascript" checked>Javascript<br>
+</label>
+
+<label for="python">
+<input id="python" type="checkbox" name="linguas" value="python" checked>Python<br>
+</label>
+
+<label for="C#">
+<input id="C#" type="checkbox" name="linguas" value="c#">C#<br>
+</label>
+
+<label for="c++">
+<input id="c++" type="checkbox" name="linguas" value="c++">C++<br>
+</label>
+
+<label for="c">
+<input id="c" type="checkbox" name="linguas" value="c">C<br>
+</label>
+
+<label for="php">
+<input id="php" type="checkbox" name="linguas" value="php">PhP<br>
+</label>
+
+<label for="ruby">
+<input id="ruby" type="checkbox" name="linguas" value="ruby">Ruby<br>
+</label>
+
+<label for="swift">
+<input id="swift" type="checkbox" name="linguas" value="swift">Swift<br>
+</label>
+
+<label for="kotlin">
+<input id="kotlin" type="checkbox" name="linguas" value="kotlin">Kotlin<br>
+</label>
+
+<p>eu sei que existem cerca de 700 linguagens de programação, mas eu só escrevi 10.</p>
+<p style="color: orange;">eu queria aprender Java</p>
+
+<button type="submit">Este Botão Finge Que Mandou o Formlulário.</button>
+
+</form>
+<footer id="footer">
+<p>Pão de forma</p>
+<p> </footer>
+</html>
